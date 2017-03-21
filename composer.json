@@ -1,0 +1,15 @@
+{
+    "name": "ict3/capstone",
+    "minimum-stability": "dev",
+    "require": {
+    	"illuminate/database" : "5.5.*"
+    },
+    "autoload" : {
+    	"psr-4" : {
+    		"Capstone\\" : "src/Capstone"
+    	},
+    	"files" : [
+    		"src/Capstone/Utility/utils.php"
+    	]
+    }
+}
